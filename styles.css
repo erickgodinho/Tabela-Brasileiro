@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 0%; 
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px; 
+    
+}
+
+th, td {
+    border: none; 
+    padding: 10px; 
+    white-space: nowrap; 
+}
+
+
+th {
+    background-color: #f4f4f4;
+    color: black;
+    font-weight: bold;
+    font-size: 11px; 
+}
+
+.posicao1, .posicao2, .posicao3, .posicao4 {
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+.posicao5 {
+    color: #d4af37;
+}
+
+.posicao6, .posicao7, .posicao8, .posicao9, .posicao10 {
+    color: #ff7f50;
+}
+
+.posicao17, .posicao18, .posicao19, .posicao20 {
+    color: red;
+    font-weight: bold;
+}
+
+/* Legenda */
+.legenda {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; 
+    margin-top: 10px;
+    font-size: xx-small;
+    text-align: justify;
+}
+
+.legenda div {
+    display: flex;
+    align-items: center;
+    font-size: 8px; 
+}
+
+.box {
+    width: 9px; 
+    height: 9px;
+    display: inline-block;
+    margin-right: 3px; 
+}
+
+.azul {
+    background-color: #0b4986;
+}
+
+.azulzin {
+    background-color: #437ce6;
+}
+
+.laranja {
+    background-color: #ff7f50;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+
+.rodape {
+    font-size: 8px; 
+    color: #555;
+    margin-top: 5px;
+    text-align: left; 
+}
